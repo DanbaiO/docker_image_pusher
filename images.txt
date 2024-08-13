@@ -3,14 +3,16 @@ hyperledger/fabric-orderer:2.5.9
 hyperledger/fabric-ccenv:2.5.9
 hyperledger/fabric-baseos:2.5.9
 hyperledger/fabric-ca:1.5.12
+hyperledger/fabric-nodeenv:2.5.9
 hyperledger/fabric-peer:latest
 hyperledger/fabric-orderer:latest
 hyperledger/fabric-ccenv:latest
 hyperledger/fabric-baseos:latest
 hyperledger/fabric-ca:latest
+hyperledger/fabric-nodeenv:latest
 
 
-busybox
+busybox:latest
 
 #nginx
 #支持私库
