@@ -3,15 +3,17 @@
 #hyperledger/fabric-ccenv:2.5.9
 #hyperledger/fabric-baseos:2.5.9
 #hyperledger/fabric-ca:1.5.12
-hyperledger/fabric-nodeenv:2.5
+#hyperledger/fabric-nodeenv:2.5
+
 #hyperledger/fabric-peer
 #hyperledger/fabric-orderer
 #hyperledger/fabric-ccenv
 #hyperledger/fabric-baseos
 #hyperledger/fabric-ca
-hyperledger/fabric-nodeenv
+#hyperledger/fabric-nodeenv
 
 
+hello-world
 #busybox
 
 #nginx
