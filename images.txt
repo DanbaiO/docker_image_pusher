@@ -1,22 +1,38 @@
-#hyperledger/fabric-peer:2.5.9
-#hyperledger/fabric-orderer:2.5.9
-#hyperledger/fabric-ccenv:2.5.9
-#hyperledger/fabric-baseos:2.5.9
-#hyperledger/fabric-ca:1.5.12
-#hyperledger/fabric-nodeenv:2.5
+#--platform=linux/arm64 hyperledger/fabric-peer:2.5.9
+#--platform=linux/arm64 hyperledger/fabric-orderer:2.5.9
+#--platform=linux/arm64 hyperledger/fabric-ccenv:2.5.9
+#--platform=linux/arm64 hyperledger/fabric-baseos:2.5.9
+#--platform=linux/arm64 hyperledger/fabric-ca:1.5.12
+#--platform=linux/arm64 hyperledger/fabric-nodeenv:2.5
 
-#hyperledger/fabric-peer
-#hyperledger/fabric-orderer
-#hyperledger/fabric-ccenv
-#hyperledger/fabric-baseos
-#hyperledger/fabric-ca
-#hyperledger/fabric-nodeenv
+#--platform=linux/arm64 hyperledger/fabric-peer
+#--platform=linux/arm64 hyperledger/fabric-orderer
+#--platform=linux/arm64 hyperledger/fabric-ccenv
+#--platform=linux/arm64 hyperledger/fabric-baseos
+#--platform=linux/arm64 hyperledger/fabric-ca
+#--platform=linux/arm64 hyperledger/fabric-nodeenv
 
+#--platform=linux/amd64 hyperledger/fabric-peer:2.5.9
+#--platform=linux/amd64 hyperledger/fabric-orderer:2.5.9
+#--platform=linux/amd64 hyperledger/fabric-ccenv:2.5.9
+#--platform=linux/amd64 hyperledger/fabric-baseos:2.5.9
+#--platform=linux/amd64 hyperledger/fabric-ca:1.5.12
+#--platform=linux/amd64 hyperledger/fabric-nodeenv:2.5
 
-hello-world
-#busybox
+#--platform=linux/amd64 hyperledger/fabric-peer
+#--platform=linux/amd64 hyperledger/fabric-orderer
+#--platform=linux/amd64 hyperledger/fabric-ccenv
+#--platform=linux/amd64 hyperledger/fabric-baseos
+#--platform=linux/amd64 hyperledger/fabric-ca
+#--platform=linux/amd64 hyperledger/fabric-nodeenv
 
-#nginx
+--platform=linux/arm64 hello-world
+--platform=linux/arm64 busybox
+
+--platform=linux/amd64 hello-world
+--platform=linux/amd64 busybox
+
+##nginx
 #支持私库
 #k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
 #xhofe/alist:latest
