@@ -26,6 +26,7 @@
 #--platform=linux/amd64 hyperledger/fabric-ca
 #--platform=linux/amd64 hyperledger/fabric-nodeenv
 
+
 --platform=linux/arm64 hello-world
 --platform=linux/arm64 busybox
 
